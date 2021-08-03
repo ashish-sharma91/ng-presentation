@@ -1,0 +1,15 @@
+<app-sidebar></app-sidebar>
+<table >
+    <tr *ngFor="let post of posts">
+        <td>{{post.id}}</td>
+        <td>{{post.body}}</td>
+        <td>{{post.title}}</td>
+    </tr>
+</table>
+
+
+<ng-template #testTemplate>
+    <div>
+        i am not rendere
+    </div>
+</ng-template>
